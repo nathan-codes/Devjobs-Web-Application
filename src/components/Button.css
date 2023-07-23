@@ -1,0 +1,8 @@
+.Button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border-radius: 0.3125rem;
+  width: 6rem;
+  height: 3rem;
+  flex-shrink: 0;
+}

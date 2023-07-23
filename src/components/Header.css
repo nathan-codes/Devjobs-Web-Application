@@ -1,0 +1,26 @@
+.Header {
+  /* background-image: url("../assets/mobile/bg-pattern-header.svg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 8.5rem;
+  position: relative;
+}
+
+@media (max-width: 380px) {
+  .Header {
+    background-image: url("../assets/mobile/bg-pattern-header.svg");
+  }
+}
+
+@media (max-width: 780px) {
+  .Header {
+    background-image: url("../assets/tablet/bg-pattern-header.svg");
+  }
+}
+
+@media (min-width: 781px) {
+  .Header {
+    background-image: url("../assets/desktop/bg-pattern-header.svg");
+  }
+}

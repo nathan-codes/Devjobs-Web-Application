@@ -1,0 +1,55 @@
+.Card {
+  border: none;
+  margin: 3rem 0.75rem;
+  background-color: var(--second_body_background);
+  color: var(--content-color);
+}
+
+.card-body {
+  padding: 0;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  flex-shrink: 0;
+}
+
+.companylogo {
+  width: 3.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  border-radius: 15px;
+  position: relative;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.location-text {
+  text-decoration: none;
+  color: var(--primary_color);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.posted-time {
+  width: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-role {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.company-name {
+  color: var(--content-color);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
