@@ -1,14 +1,16 @@
-// import Navbar from "./Navbar";
-// import "./Header.css";
-// // import SearchInput from "./searchInput";
+import Navbar from "./Navbar";
+import SearchInput from "./SearchInput";
+import "./Header.css";
 
-// function Header({ onSearch }) {
-//   return (
-//     <header className="Header">
-//       <Navbar />
-//       <SearchInput onSearch={onSearch} />
-//     </header>
-//   );
-// }
 
-// export default Header;
+
+function Header({ onSearch }) {
+  return (
+    <header className="Header">
+      <Navbar />
+      <SearchInput onSearch={onSearch} />
+    </header>
+  );
+}
+
+export default Header;
