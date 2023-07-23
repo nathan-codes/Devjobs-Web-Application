@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import CardGroup from "./components/CardGroup";
 import { useState } from "react";
 import developerData from "./data.json";
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Header onSearch={handleSearch} />
+      {/* <Header onSearch={handleSearch} /> */}
       <CardGroup devData={developerData} searchTerm={searchTerm} />
     </>
   );
