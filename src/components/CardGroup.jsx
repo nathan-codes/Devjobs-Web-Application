@@ -4,13 +4,18 @@ import Card from "./Card";
 // import firstlogo from "../assets/logos/pod.svg"
 
 function CardGroup({ devData, searchTerm }) {
-  
   const filteredDevData = devData.filter((developer) => {
-    return developer.position.toLowerCase().includes(searchTerm.toLowerCase());
+    const titleMatch = developer.position
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase());
+    const locationMatch = developer.location
+      .toLowerCase()
+      .includes(searchTerm.toLowerCase());
+    const fullTimeMatch =
+      developer.contract && searchTerm.toLowerCase() === "full time";
+    return titleMatch || locationMatch || fullTimeMatch;
   });
-  
-  
-  
+
   return (
     <section className="CardGroup">
       <div className="container">
