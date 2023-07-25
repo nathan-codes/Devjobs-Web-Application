@@ -3,6 +3,11 @@
   margin: 3rem 0.75rem;
   background-color: var(--second_body_background);
   color: var(--content-color);
+  cursor: pointer;
+}
+
+.Card:hover .job-role{
+  opacity: 0.5;
 }
 
 .card-body {

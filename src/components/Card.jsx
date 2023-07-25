@@ -2,6 +2,7 @@ import "./Card.css";
 
 
 function Card({ jobData }) {
+
   return (
     <div className="card Card">
       <span
@@ -11,7 +12,7 @@ function Card({ jobData }) {
         <img
           src={jobData.logo}
           className="d-inline-block "
-          alt=""
+          alt="companylogo"
         />
       </span>
 

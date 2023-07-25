@@ -71,12 +71,14 @@ h6 {
   --body_background: #f4f6f8;
   --second_body_background: #fff;
   --body_color: #6e8098;
-  --primary_color: #5964E0;
+  --primary_color: #5964e0;
   --button-bg-color: #5964e0;
   --button-text-color: #ffffff;
   --text-color: black;
-  --header-color: #19202D;
-  --content-color: #6E8098;
+  --header-color: #19202d;
+  --content-color: #6e8098;
+  --secondary-button: #e1e3fa;
+  --secondary-button-text-color: #5964e0;
 }
 
 /* For Dark Theme */
@@ -87,6 +89,8 @@ h6 {
   --header-color: white;
   --body_color: white;
   --link_color: cyan;
+  --secondary-button: #6e8098;
+  --secondary-button-text-color: #fff;
 }
 
 * {

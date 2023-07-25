@@ -1,0 +1,92 @@
+.details-group {
+  width: 689px;
+}
+
+.detail-head {
+  border-radius: 6px;
+  background-color: var(--second_body_background);
+}
+
+.detail-body {
+  border-radius: 6px;
+  background-color: var(--second_body_background);
+}
+
+.logoSection {
+  background-color: orange;
+  height: 140px;
+  border-bottom-left-radius: 6px;
+}
+
+.companyName {
+  color: var(--text-color);
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.companyWebsite {
+  color: var(--content-color);
+}
+
+.devposition {
+  color: var(--text-color);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.workdetails {
+  color: var(--content-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.location {
+  color: var(--primary_color);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.description {
+  color: var(--content-color);
+  font-family: Kumbh Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.requirements {
+  padding: 0;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.requirementlist {
+  color: var(--content-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.25rem; /* 162.5% */
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--second_body_background);
+}
+
+footer .devposition {
+  font-size: 1.25rem;
+
+}
