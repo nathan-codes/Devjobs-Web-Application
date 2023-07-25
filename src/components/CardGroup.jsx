@@ -1,6 +1,6 @@
 import "./CardGroup.css";
 import Card from "./Card";
-import { Link } from "react-router-dom";
+
 
 function CardGroup({ devData, searchTerm }) {
   const filteredDevData = devData.filter((developer) => {
@@ -22,9 +22,9 @@ function CardGroup({ devData, searchTerm }) {
           {filteredDevData.map((job) => {
             return (
               <div className="col-md-6 col-lg-4" key={job.id}>
-                <Link to="/detailspage" style={{textDecoration:"none"}} >
+            
                   <Card jobData={job} />
-                </Link>
+           
               </div>
             );
           })}
