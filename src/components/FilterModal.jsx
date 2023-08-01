@@ -5,7 +5,7 @@ function FilterModal({ onClose }) {
     <div className="modal-overlay">
       <div className="modal-content">
         {/* Your modal content goes here */}
-        <span className="d-flex w-75  align-items-center justify-content-between locationFilter mb-2">
+        <span className="d-flex mb-3">
           {" "}
           <svg width="17" height="24" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -14,13 +14,15 @@ function FilterModal({ onClose }) {
               fill-rule="nonzero"
             />
           </svg>
-          <input type="text" placeholder="Filter by location.." />
+          <input type="text" placeholder="Filter by location.." className="ms-2"/>
         </span>
         <hr />
 
         <span className="mb-3">
-          <input type="checkbox" name="modalCheckbox"   id="modalcheckbox"  />
-          <label htmlFor="modalcheckbox" className="ps-3">Full Time Only </label>
+          <input type="checkbox" name="modalCheckbox" id="modalcheckbox" />
+          <label htmlFor="modalcheckbox" className="ps-3">
+            Full Time Only{" "}
+          </label>
         </span>
 
         <button className="closeButton" onClick={onClose}>
