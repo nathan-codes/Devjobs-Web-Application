@@ -4,9 +4,16 @@
   margin: 0 auto;
 }
 
-.navbar-brand {
+.navbrand {
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.navbrand:hover{
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
 }
 

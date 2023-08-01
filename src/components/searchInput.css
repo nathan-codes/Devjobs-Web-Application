@@ -1,8 +1,9 @@
 .inputGroup {
   padding: 1rem;
-  width: 327px;
   height: 80px;
   position: absolute;
+  min-width: 17rem;
+
   top: 100px;
   left: 28%;
   transform: translateX(-25%);
@@ -11,6 +12,10 @@
   background-color: var(--second_body_background);
   border-radius: 10px;
   /* display: none; */
+}
+
+.inputGroup  .searchInput {
+  width: 50%;
 }
 
 .tablet-inputGroup {

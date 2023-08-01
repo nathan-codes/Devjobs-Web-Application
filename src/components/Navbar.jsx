@@ -74,7 +74,10 @@ function Navbar() {
   return (
     <nav className="navbar px-2 py-4">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a
+          className="navbrand"
+          href="https://devjobs-amalitech-project.netlify.app/"
+        >
           devjobs
         </a>
         <span className="">
